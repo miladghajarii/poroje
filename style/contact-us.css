@@ -1,0 +1,100 @@
+@font-face {
+    font-family: IRANSans;
+    src: url('../fonts/IRANSans.ttf');
+  }
+
+/*style for tag names*/
+
+
+*{
+  font-family: IRANSans;
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+}
+
+button{
+      font-family: IRANSans;
+}
+
+ p{
+     color: #FFF;
+     font-size: 18px;
+ }
+
+ label{
+     color: #FFF;
+ }
+
+/*class based element*/
+
+.h1-color{
+    color: #E24E1B;
+    
+}
+
+.form-group{
+    text-align: right;
+}
+
+.container{
+    top: 50px;
+    left: 50%;
+    right: 26%;
+    text-align: center;
+    position: absolute;
+    width: 600px;
+}
+.btn-default {
+    background-color: #D6D4A0;
+    color: #333333;
+    font-size: 17px;
+    width: 180px;
+    height: 40px;
+    margin: 30px;
+}
+.btn-default:hover{
+    background-color:rgb(255, 64, 0);
+    color: #FFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.btn-block{
+    height: 50px;
+    margin: 5px;
+}
+
+
+/*id based element*/
+#mainTitle{
+    margin: 50px;
+    text-align: center; 
+    padding: 30px;
+}
+#myVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.3;
+}
+#buttonList{
+    margin-left:40%;
+    margin-right:40%;
+    margin-top: 80px; 
+    width: 280px;
+    height: 150px;
+}
+#bg{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
